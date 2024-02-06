@@ -45,7 +45,7 @@ global.location = "mathara, Sri Lankan";
 global.reactmoji = "💞";
 global.themeemoji = "👨‍💻";
 global.vidmenu = { url: 'https://tenor.com/en-CA/view/anonymous-hacker-smooth-gif-10171911193797826570%9D%90%95-12-14' };
-global.websitex = "https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD.V.0.4";
+global.websitex = "https://github.com/SithumEshan45";
 global.lolhuman = "⃞💙𝗔𝘂𝗿𝗮™";
 
 
@@ -79,17 +79,17 @@ global.ntilink = []
 
 //
 global.mess = {
-  jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
+  jobdone: 'Here you *go...*',
+  useradmin: '😏Sorry, only *Group Admins* can use this command *Baka*!😏',
   botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-  botowner: 'Only my *Owner* can use this command, Baka!',
-  grouponly: 'This command is only made for *Groups*, Baka!',
-  privateonly: 'This command is only made for *Private Chat*, Baka!',
+  botowner: '⃞🌷Only my *Owner* can use this command, Baka!🐼⃝',
+  grouponly: 'This command is only made for *Groups*, B⃞aka!',
+  privateonly: 'This command is only made for *Private Chat*, Baka͎㋚⃝!',
   botonly: 'Only the *Bot itself* can use this command!',
-  waiting: 'Just Wait...',
-  nolink: 'Please provide me *link*, Baka!',
-  error: 'An error occurd!',
-  banned: 'You are *Banned* fron using commands!',
+  waiting: 'Just Wait...♻️',
+  nolink: 'Please provide me *link*, Baka!⃞💙𝗔𝘂𝗿𝗮™',
+  error: 'An error ❌',
+  banned: 'You are *Banned* fron using commands❤️-😜!',
   bangc: 'This Group is *Banned* from using Commands!',
   nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
 
