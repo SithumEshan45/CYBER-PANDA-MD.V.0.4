@@ -700,9 +700,9 @@ Typed *surrender* to surrender and admited defeat`
       hello: `Hello ${pushname}, I am ${BotName}. My current prefix is "${prefix}". How can I help you?`,
       kai: `My Boss is lost in another Multiverse, and I lost connection with him...`,
       runtime: `🦋𝘏𝘐 ${pushname}\n${nowtime}\n\n🦋𝘙𝘜𝘕𝘛𝘐𝘔𝘌:${runtime(process.uptime())}\n\n🦋𝘗𝘙𝘌𝘍𝘐𝘟: *${prefix}*\n\n🦋𝘛𝘐𝘔𝘌: ${kaitime}\n\n🦋𝘋𝘈𝘛𝘌: ${kaidate}\n\n🦋𝘛𝘰𝘥𝘢𝘺 𝘪𝘴 ${currentDay}`,
-      konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?`,
+      konichiwa: `Konichiwa ${pushname}, I am ${BotName}. How can I help you?🍒⃝`,
       alive: '🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋',
-      ping: `Hi🛡️ ${pushname}, Pong ${latensie.toFixed(4)} ms`,
+      ping: `Hi💙 ${pushname}, Pong ${latensie.toFixed(4)} ms`,
       'good morning': `Good morning💞🦋.`,
       ohayo: `Good morning to you too ${pushname} ☺️. Have a great day 😇.`,
       'good afternoon': `Good afternoon💞🦋.`,
@@ -736,7 +736,7 @@ Typed *surrender* to surrender and admited defeat`
         let { data } = await axios.get('https://github.com/CYBER-x-SACHIYA-SL-MD-BOT/CYBER-PANDA-MD.V.0.4');
         teks = `
 ┌───────────────       
-│ *®-ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ*
+│ *®-ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ Powered By ⃞💙𝗔𝘂𝗿𝗮™*
 ├───────────────
 │ *Total Stars* ${data.stargazers_count}
 ├───────────────
@@ -758,7 +758,7 @@ Typed *surrender* to surrender and admited defeat`
            headerType: 4, */
           contextInfo: {
             externalAdreply: {
-              title: "Powered by Kai",
+              title: "Powered By ⃞💙𝗔𝘂𝗿𝗮™",
               body: " ",
               thumbnail: fs.readFileSync("Assets/pic2.jpg"),
               mediaType: 1,
@@ -869,7 +869,7 @@ Typed *surrender* to surrender and admited defeat`
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!isCreator) return reply(mess.botowner)
-        A17.sendMessage(from, { react: { text: "🛡️", key: m.key } })
+        A17.sendMessage(from, { react: { text: "👨‍💻", key: m.key } })
 
         if (!args[0]) return reply(`Use ${prefix + command} number\nExample ${prefix + command} ${OwnerNumber}`)
         bnnd = q.split("|")[0].replace(/[^0-9]/g, '')
@@ -886,7 +886,7 @@ Typed *surrender* to surrender and admited defeat`
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!isCreator) return reply(mess.botowner)
-        A17.sendMessage(from, { react: { text: "🛡️", key: m.key } })
+        A17.sendMessage(from, { react: { text: "👨‍💻", key: m.key } })
 
         if (!args[0]) return reply(`Use ${prefix + command} nomor\nExample ${prefix + command} 916297175943`)
         ya = q.split("|")[0].replace(/[^0-9]/g, '')
@@ -901,7 +901,7 @@ Typed *surrender* to surrender and admited defeat`
         if (isBan) return reply(mess.banned);
         if (isBanChat) return reply(mess.bangc);
         if (!isCreator) return reply(mess.botowner);
-        A17.sendMessage(from, { react: { text: "🛡️", key: m.key } })
+        A17.sendMessage(from, { react: { text: "👨‍💻", key: m.key } })
 
         try {
           const modData = fs.readFileSync('./database/mod.json', 'utf8');
@@ -6666,7 +6666,7 @@ _Click the button below to download_`
           await sleep(1500)
           let btn = [{
             quickreplyButton: {
-              displayText: '💡 Menu 💡',
+              displayText: '🧾 Menu 🧾',
               id: '-menu'
             }
           }, {
@@ -6690,7 +6690,7 @@ _Click the button below to download_`
       if (isBanChat) return reply(mess.bangc);
   A17.sendMessage(from, { react: { text: "📲" , key: m.key }})      
   const helpmenu = ` 
-┌──『•• 🎯 *ᴀʟʟᴍᴇɴᴜ* 🎯 ••』──◈
+┌──『•• 🐼 *ᴀʟʟᴍᴇɴᴜ* 🐼 ••』──◈
 │╭────────────···▸▸
 ┴│
 ❒│▸  *Uꜱᴇʀ :  ${pushname}* !!! ✅
@@ -6704,7 +6704,7 @@ _Click the button below to download_`
 ┬│   *ᴄʏʙᴇʀ-ᴘᴀɴᴅᴀ-ᴍᴅ*
 │╰───────────···▸▸
 └──────────────···▸▸▸
-┌──『•• 🎯 *ᴀʟʟᴍᴇɴᴜ* 🎯 ••』──◈
+┌──『•• 🐼 *ᴀʟʟᴍᴇɴᴜ* 🐼 ••』──◈
 │╭────────────···▸▸
 ┴│
 ❒│▸ *${prefix}1.1*  *ʙᴏᴛᴍᴇɴᴜ*
@@ -6737,14 +6737,14 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🗓️", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *ᴀʟɪᴠᴇ* 🎯 ••』──◈
+┌──『•• 🐼 *ᴀʟɪᴠᴇ* 🐼 ••』──◈
 │╭────────────···▸▸
 ┴│
 ❒│▸  *Uꜱᴇʀ :  ${pushname}* !!! ✅
 ❒│▸  *Nᴏᴡ-ᴛɪᴍᴇ : ${nowtime}*  
 ❒│▸  *Tɪᴍᴇ : ${kaitime}* ⌚
 ❒│▸  *Dᴀᴛᴇ : ${kaidate}* 📆
-❒│▸  *Oᴡɴᴇʀ : ${global.OwnerName}* 🙋
+❒│▸  *Oᴡɴᴇʀ : ${global.OwnerName}* 👨‍💻
 ❒│▸  *Pʀᴇꜰɪx : 『  ${prefix} 』*  💡
 ❒│▸  *Rᴜɴᴛɪᴍᴇ : ${runtime(process.uptime())}* 💻
 ❒│▸  *Dᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ Mʀ Sᴀᴄʜɪᴛʜ* 
@@ -6763,7 +6763,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🗓️", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *Bᴏᴛ-Mᴇɴᴜ* 🎯 ••』──◈
+┌──『•• 🐼 *Bᴏᴛ-Mᴇɴᴜ* 🐼 ••』──◈
 │╭────────────···▸▸
 ┴│
 ⬡│▸ ${prefix}ʀᴇᴘᴏ 
@@ -6793,7 +6793,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🎩", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *Oᴡɴᴇʀ* 🎯 ••』───◈
+┌──『•• 🐼 *Oᴡɴᴇʀ* 🐼 ••』───◈
 │╭────────────···▸▸
 ┴│
 ⬡│▸ ${prefix}ᴘᴜʙʟɪᴄ
@@ -6829,7 +6829,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🧊", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *Gʀᴏᴜᴘ* 🎯 ••』───◈
+┌──『•• 🐼 *Gʀᴏᴜᴘ* 🐼 ••』───◈
 │╭────────────···▸▸
 ┴│
 ⬡│▸ ${prefix}ᴘʀᴏᴍᴏᴛᴇ  
@@ -6864,7 +6864,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🛡️", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *Aɴᴛɪ-Lɪɴᴋ* 🎯 ••』───◈
+┌──『•• 🐼 *Aɴᴛɪ-Lɪɴᴋ* 🐼 ••』───◈
 │╭────────────···▸▸
 ┴│
 ⬡│▸  ${prefix}ᴀɴᴛɪʟɪɴᴋɢᴄ 
@@ -6890,7 +6890,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🗒️", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *Eᴄᴏɴᴏᴍʏ* 🎯 ••』───◈
+┌──『•• 🐼 *Eᴄᴏɴᴏᴍʏ* 🐼 ••』───◈
 │╭───────────···▸▸
 ┴│
 ⬡│▸  ${prefix}ᴅᴀɪʟʏ 
@@ -6916,7 +6916,7 @@ _Click the button below to download_`
           if (isBanChat) return reply(mess.bangc);
           A17.sendMessage(from, { react: { text: "💫", key: m.key } })
 
-          reply(`🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋`)
+          reply(`🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋 Powered By ⃞💙𝗔𝘂𝗿𝗮™`)
         }
 
         break;
@@ -6929,7 +6929,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🧿", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *ɢᴀᴍᴇꜱ* 🎯 ••』───◈
+┌──『•• 🐼 *ɢᴀᴍᴇꜱ* 🐼 ••』───◈
 │╭────────────···▸▸
 ┴│
 ⬡│▸ ${prefix}ᴛᴛᴛ / ᴛɪᴄᴛᴀᴄᴛᴏᴇ   
@@ -6951,7 +6951,7 @@ _Click the button below to download_`
           A17.sendMessage(from, { react: { text: "🥰", key: m.key } })
 
           reply(`
-┌──『•• 🎯 *Cᴏɴᴠᴇʀᴛ* 🎯 ••』───◈
+┌──『•• 🐼 *Cᴏɴᴠᴇʀᴛ*  ••』───◈
 │╭─────────────···▸▸
 ┴│
 ⬡│▸  ${prefix}ꜱᴛɪᴄᴋᴇʀ 
@@ -6987,7 +6987,7 @@ _Click the button below to download_`
           if (isBanChat) return reply(mess.bangc);
           A17.sendMessage(from, { react: { text: "🔑", key: m.key } })
 
-          reply(`🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋`)
+          reply(`🦋 │𝐂𝐘𝐁𝜩𝐑│𝐏𝜟𝐍𝐃𝐀│𝐌𝐃│𝐕➂ 🦋 Powered By ⃞💙𝗔𝘂𝗿𝗮™`)
         }
 
         break;
@@ -7055,7 +7055,7 @@ _Click the button below to download_`
           if (isBanChat) return reply(mess.bangc);
           A17.sendMessage(from, { react: { text: "🪀", key: m.key } })
 
-          reply(`*Hi🎯${pushname}*,  *Pong*  *${latensie.toFixed(4)}* *ms*`)
+          reply(`*Hi🐼${pushname}*,  *Pong*  *${latensie.toFixed(4)}* *ms*`)
         }
 
         break;
@@ -7161,7 +7161,7 @@ _Click the button below to download_`
           if (isBan) return reply(mess.banned);
           if (isBanChat) return reply(mess.bangc);
           A17.sendMessage(from, { react: { text: "❌", key: m.key } })
-          reply(`Hey *${pushname}* *මෙවනි විදානයක් මා සතුව නැත..*${prefix}*menu* *ලෙස ටයිප් කරන්න.*.`)
+          reply(`Hey *${pushname}* *අනේ 💙 පැටියෝ මෙවැනි විදානයක් මා සතුව නැත..*${prefix}*menu* *ලෙස ටයිප් කරන්න.*.`)
 
         }
 
